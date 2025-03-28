@@ -1,0 +1,9 @@
+{
+    "name": "APP_Portfolio",
+    "short_name": "Portfolio",
+    "start_url": "/",
+    "display": "standalone", // faz o app abrir como aplicativo indepente
+    "background_color": "#ffffff", // cor de fundo no carregamnto do app
+    "theme_color": "#000000", // cor da barra de status
+    
+}
