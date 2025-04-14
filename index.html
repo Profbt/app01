@@ -8,8 +8,28 @@
     <title>App Portfólio</title>
 
     <!-- Registro do service worker (nas próximas aulas)-->
-
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(() => console.log("Service Worker registrado."))
+                .catch((err) => console.error("Erro no Service Worker:", err));                
+        }
+    </script>
     
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 
 </head>
 <body>
